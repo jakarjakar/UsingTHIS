@@ -17,5 +17,11 @@ public class PointRuner {
         System.out.println(p0.x); //Показывает значение x переданное конструктору БЕЗ THIS при создании объекта
         System.out.println(p1.x); //Показывает значение x переданное конструктору с использованием THIS при создании объекта
         System.out.println(p2.x); //Показывает значение x после создания с помощью конструктора без переменных. Значение берется из локальной переменной
-} //comment from local branch
-}
+    } //End main
+}//End class PointRuner
+
+//run:
+//88
+//88
+//2
+//BUILD SUCCESSDUL 
