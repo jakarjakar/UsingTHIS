@@ -13,8 +13,8 @@ public class Point {
         Point p = new Point(1, 1);
         PointThis pThis = new PointThis(1, 1);
         PointThis pThis1 = new PointThis();
-        System.out.println(p.x);
-        System.out.println(pThis.x);
-        System.out.println(pThis1.x);
+        System.out.println(p.x); //Показывает значение x переданное конструктору БЕЗ THIS при создании объекта
+        System.out.println(pThis.x); //Показывает значение x переданное конструктору с использованием THIS при создании объекта
+        System.out.println(pThis1.x); //Показывает значение x после создания с помощью конструктора без переменных. Значение берется из локальной переменной
 }
 }
